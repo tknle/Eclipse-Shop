@@ -16,7 +16,7 @@ Thiw is a responsive website, can be opened on a variety of screen sizes, tablet
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-[![Netlify Badge](https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white&link=https://eclipseshop.netlify.app/mainpage.html)](https://eclipseshop.netlify.app/mainpage.html)
+[![Netlify Badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white&link=https://eclipseshop.netlify.app/mainpage.html)](https://eclipseshop.netlify.app/mainpage.html)
 
 ## Highlight
 - The website use JavaScript DOM manipulation to load the pictures.
