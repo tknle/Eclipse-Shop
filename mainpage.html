@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eclipse. Keep it simple.</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style1.css" />
+    <!-- <link rel="stylesheet" href="style3.css" /> -->
+    <script src="mainpage_scripts.js"></script>
+  </head>
+  <body>
+    <!-- start here -->
+
+    <nav>
+      <ul class="megamenu">
+        <li>
+          <a class="logo" href="mainpage.html"><img src="images/logo.jpg" alt="logo"/></a>
+        </li>
+        <li><a href="newrelease.html" class="active">NEW RELEASES </a></li>
+
+        <li>
+          <a href="#">MENS</a>
+          <div class="submenu1">
+            <ul class="submenulist1">
+              <li><h4>CLOTHING</h4></li>
+              <li><a href="men1.1.html">T-shirts</a></li>
+              <li><a href="men1.2.html">Jeans</a></li>
+              <li><a href="men1.3.html">Hoodies</a></li>
+            </ul>
+            <ul class="submenulist1">
+              <li><h4>SHOES</h4></li>
+              <li><a href="men2.1.html">Running</a></li>
+              <li><a href="men2.2.html">Training</a></li>
+            </ul>
+            <ul class="submenulist1">
+              <li><h4>SHOP BY TREND</h4></li>
+
+              <li><a href="men3.1.html">Neutrals</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- the second menu -->
+
+        <li>
+          <a href="#">WOMENS</a>
+          <div class="submenu1">
+            <ul class="submenulist1">
+              <li><h4>CLOTHING</h4></li>
+              <li><a href="women1.1.html">T-shirts</a></li>
+              <li><a href="women1.2.html">Jeans</a></li>
+              <li><a href="women1.3.html">Dresses</a></li>
+            </ul>
+            <ul class="submenulist1">
+              <li><h4>SHOES</h4></li>
+              <li><a href="women2.1.html">Lifestyle</a></li>
+              <li><a href="women2.2.html">Running</a></li>
+            </ul>
+            <ul class="submenulist1">
+              <li><h4>SHOP BY OCCASION</h4></li>
+
+              <li><a href="women3.1.html">Date Night</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li><a href="accessories.html">ACCESSORIES</a></li>
+
+        <li><a href="aboutus.html">ABOUT US</a></li>
+
+        <li>
+          <form class="Flatsearch" action="#">
+            <input type="text" class="searchTerm" placeholder="Search" name="search" />
+            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+          </form>
+        </li>
+
+        <li>
+          <a class="logo" href="registrationform.html"
+            ><img src="images/userlogo.png" alt="logo"
+          /></a>
+        </li>
+        <li>
+          <a class="logo" href="#"><img src="images/basketlogo.png" alt="logo"/></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END OF NAV -->
+
+    <!-- CONTACT US PAGE -->
+    <div class="contactus">
+      <a class="link" href="contact.html"> CONTACT US </a>
+    </div>
+
+    <!-- IMAGES -->
+
+    <div class="imagecontainer">
+      <img src="images/newrelease.png" alt="newrelease" />
+
+      <div class="textcenter">
+        <div class="first">
+          <h2>Shop the lastest T-shirts trend</h2>
+          <button onclick="document.location='men1.1.html'" type="shopbutton">Shop Men</button>
+          <button onclick="document.location='women1.1.html'" type="shopbutton" value="button">
+            Shop Women
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- New release   -->
+
+    <!-- SECTTION 2 -->
+    <div class="mainpage_section2">
+      <hr />
+      <h5>Men and Women</h5>
+      <h2>NEW RELEASES</h2>
+      <div class="outputmp"></div>
+    </div>
+
+    <!-- SECTION 3 -->
+    <div class="mainpage_section3">
+      <hr />
+      <h5>Men and Women</h5>
+      <h2>ACCESSORIES</h2>
+
+      <div id="pic3">
+        <img src="images/accb.jpg " alt="accessories" />
+        <div class="textcenter3">
+          <div class="first">
+            <h2 style="color:white;">Accessories</h2>
+            <button onclick="document.location='accessories.html'" type="shopbutton">
+              Shop Accessories
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section 4 -->
+
+    <div class="mainpage_section4">
+      <hr />
+      <h5>Men and Women</h5>
+      <h2>SNEAKER COLLECTION</h2>
+
+      <div id="pic4">
+        <img src="images/mps3.jpg " alt="newrelease" />
+        <div class="textcenter4">
+          <div class="first">
+            <h2>Must-have sneakers</h2>
+            <button onclick="document.location='men2.2.html'" type="shopbutton">Shop Men</button>
+            <button onclick="document.location='women2.2.html'" type="shopbutton">
+              Shop Women
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 5 -->
+
+    <div class="mainpage_section5">
+      <hr />
+      <h5>Men and Women</h5>
+      <h2>SHOP BY COLLECTION</h2>
+      <div id="pic5">
+        <img src="images/mpbn4.jpg " alt="newrelease" />
+        <div class="textcenter5">
+          <div class="first">
+            <h2>Shop the lastest trend</h2>
+            <button onclick="document.location='men3.1.html'" type="shopbutton">Shop Men</button>
+            <button onclick="document.location='women3.1.html'" type="shopbutton">
+              Shop Women
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <!-- Conclusion -->
+    <div class="conclusion">
+      <h2>Eclipse is more than clothing</h2>
+      <p>
+        Eclipse is an outstanding online retailer. We care about products' quality and customers
+        satisfatory. We offer the best deal and the best service. We believe fashion has its own
+        language, and you define it!
+      </p>
+    </div>
+
+    <!-- Additional -->
+    <div class="additional">
+      <p>Keep up with Eclipse for the <b>latest news</b> and <b>exclusive deals</b></p>
+      <form class="subscribe" action="https://formspree.io/khanhnhi5396@gmail.com" method="post">
+        <input type="text" class="subscribe" placeholder="Enter your email here" name="subs" />
+        <button onclick="document.location='registrationform.html'" type="shopbutton">
+          SUBSCRIBE
+        </button>
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <div class="inner-footer">
+        <div class="footer-items">
+          <h1>Eclipse.</h1>
+          <p>More than clothing. It's not just a designs, it's the people who wear them.</p>
+        </div>
+
+        <div class="footer-items">
+          <h2>HELP</h2>
+          <div class="border"></div>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Delivery & Returns</a></li>
+            <li><a href="#">Orders</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>MY ACCOUNT</h2>
+          <div class="border"></div>
+          <ul>
+            <li><a href="registrationform.html">Login</a></li>
+            <li><a href="registrationform2.html">Register</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>CONTACTS</h2>
+          <div class="border"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 87 Roxbury Street, ON, CA.</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> 666-999-9999</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i> support@eclipse.com</li>
+          </ul>
+
+          <div class="social-media">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        Copyright &copy; Mia Le 2020. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>
