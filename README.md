@@ -7,7 +7,7 @@ for the site's front-end. <br />
 Thiw is a responsive website, can be opened on a variety of screen sizes, tablets and mobile devices. 
 <br />
 
-[Click to access to the website](https://eclipseshop.netlify.app/mainpage.html)
+[Click here to access to the website](https://eclipseshop.netlify.app/mainpage.html)
 
 ## Technologies
 
@@ -19,7 +19,7 @@ Thiw is a responsive website, can be opened on a variety of screen sizes, tablet
 [![Netlify Badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=Netlify&logoColor=white&link=https://eclipseshop.netlify.app/mainpage.html)](https://eclipseshop.netlify.app/mainpage.html)
 
 ## Highlight
-- The website use JavaScript DOM manipulation to load the pictures.
+- The website use JavaScript DOM manipulation technique to load the pictures.
 - In the navigation bar there are logo, menu, login page and shopping cart.
 - "Contact us" will ask customers to fill a form. The formsubmit to https://httpbin.org/post and allow the
 user to submit when all data has been entered and there aren't any validation errors. Those validation error will be tested with JavaScript to make sure user's data is accurate.
