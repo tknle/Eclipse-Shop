@@ -7,6 +7,9 @@ for the site's front-end. <br />
 Thiw is a responsive website, can be opened on a variety of screen sizes, tablets and mobile devices. 
 <br />
 
+:star: Website Main Page :star:
+![Eclipse](https://github.com/tknle/Eclipse-Shop/blob/main/Eclipse-mainpage.JPG)
+
 [Click here to access to the website](https://eclipseshop.netlify.app/mainpage.html)
 
 ## Technologies
